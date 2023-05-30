@@ -1,6 +1,6 @@
 FROM sensu-ruby32-runtime-3.2.2-debian11:0.1.2
 ARG ASSET_GEM=sensu-plugins-mysql
-ARG GIT_REF=c763a68b5b7de4f2dcaa7520684f47f837e36252
+ARG GIT_REF=d0862f1472ad2ef8cf769d5b1f8bf3e2070eb139
 ARG GIT_REPO=https://github.com/opsone/sensu-plugins-mysql.git
 ARG GREP_EXCLUDE='(ld.so|ld-linux-x86-64.so|libBrokenLocale.so|libSegFault.so|libanl.so|libc.so|libdl.so|libm.so|libmvec.so|libnss_compat.so|libnss_dns.so|libnss_files.so|libpthread.so|libresolv.so|librt.so|libthread_db.so|libutil.so|vdso.so)'
 
